@@ -1,0 +1,30 @@
+#sidenavbar-main{
+    border: 1px solid red;
+    padding: 10px;
+    background-color: #191717;
+}
+
+#sidenavbar-content{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    height: 100vh;
+    padding: 30px 0px;
+
+    color: #F1EFEF;
+    background-color: #191717;
+
+    /* border: 1px solid #F1EFEF; */
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px #F1EFEF;
+
+}
+
+#sidenavbar-button{
+    cursor: pointer;
+}
+
+#sidenavbar-button:hover{
+    color: #f05e16;
+}

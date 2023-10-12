@@ -1,0 +1,12 @@
+#layoutpage-main{
+    display: flex;
+    border: 1px solid red;
+}
+
+#layoutpage-children{
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    /* height: gausah; */
+}
