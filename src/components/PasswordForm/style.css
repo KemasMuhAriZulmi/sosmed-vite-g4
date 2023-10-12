@@ -1,0 +1,10 @@
+.input-group {
+  margin: 10px 0;
+}
+
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 32px;
+}
