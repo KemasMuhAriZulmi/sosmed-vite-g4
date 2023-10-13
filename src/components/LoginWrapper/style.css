@@ -1,10 +1,15 @@
 #container {
   width: 500px;
-  height: 300px;
-  background-color: #f1efef;
+  height: 340px;
+  background-color: #191717;
   border-radius: 16px;
   box-sizing: border-box;
-  box-shadow: 0 0 8px #f1efef;
+  box-shadow: 0 0 8px #191717;
+}
+
+#logo {
+  margin-top: 4px;
+  margin-right: 20px;
 }
 
 #top {
@@ -36,12 +41,13 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 8px 0;
 }
 
 .goright {
   margin-left: 8px;
   font-weight: 700;
-  color: #191717;
+  color: #f1efef;
 }
 
 .goright span {
@@ -55,11 +61,24 @@
 }
 
 .login-first {
-  color: #191717;
+  color: #fff;
   margin-left: 8px;
   font-weight: 700;
 }
 
 #login {
   font-size: 20px;
+}
+
+.alert-box {
+  width: 392px;
+  height: 24px;
+}
+
+.alert-box h1 {
+  font-size: 12px;
+}
+
+.login-first h1 {
+  padding-bottom: 16px;
 }

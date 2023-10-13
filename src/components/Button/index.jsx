@@ -1,9 +1,9 @@
 import "./style.css";
 
-const Button = () => {
+const Button = (props) => {
   return (
     <div className="ButtonComponent">
-      <button id="ButtonComponent"></button>
+      <button id="buttoncomponent" onClick={props.onClick}></button>
     </div>
   );
 };

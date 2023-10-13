@@ -1,5 +1,8 @@
-// import { configureStore } from "@reduxjs/toolkit";
+import { configureStore } from "@reduxjs/toolkit";
+import { accountReducer } from "./accountReducer";
 
-// export const globalConfig = configureStore({
-//   reducer: {},
-// });
+export const globalConfig = configureStore({
+  reducer: {
+    accountReducer,
+  },
+});
