@@ -1,0 +1,20 @@
+{
+  "account" : [
+    {
+      "id": 1,
+      "name": "John",
+      "password" : "123456",
+      "emai" : "John@example.com",
+      "profilepicture" : ""
+     }
+    ],
+   "post" :[
+    {
+      "id" : 1,
+      "post" : "",
+      "img" : "",
+      "account_id" : 1,
+      "date" : "2020-01-01"
+    }
+   ]
+}
