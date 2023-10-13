@@ -5,6 +5,7 @@ import RegisterPage from "./pages/Register";
 import NotFound from "./components/NotFound";
 import RegisterFormPage from "./components/RegisterForm";
 import { Login_Page, Register_Form, Register_Page, Not_Found } from "./helper";
+import TimelinePage from "./components/pages/timeline/timeline";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path={Register_Form} element={<RegisterFormPage />} />
           <Route path={Register_Page} element={<RegisterPage />} />
           <Route path={Not_Found} element={<NotFound />} />
+          <Route path="/timeline" element={<TimelinePage/>}> </Route>
         </Routes>
       </div>
     </>
