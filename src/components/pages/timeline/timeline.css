@@ -1,0 +1,174 @@
+
+#timeline-main{
+    color: #F1EFEF;
+    background-color: #191717;
+
+    width: 100%;
+    height: 100%;
+    padding: 10px 30px;
+
+}
+
+#timeline-text{
+    font-size: xx-large;
+    font-weight: 600;
+    /* text-align: center; */
+    padding: 10px 10px;
+
+    /* border: 1px solid red; */
+}
+
+#timeline-content{
+    display: flex;
+    flex-direction: column;
+    margin: 100px auto;
+    list-style: none;
+    gap: 30px;
+
+    width: 50%;
+
+    /* border: 1px solid red; */
+}
+
+#timeline-post-main{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #F1EFEF;
+    border-radius: 10px;
+}
+
+#post-pict{
+    /* border: 1px solid red; */
+    width: 180px;
+}
+
+#profile-picture{
+    border-radius: 100%;
+    height: 50px;
+    width: 50px;
+}
+
+#post-post{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+}
+
+#post-name-date{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+#post-date{
+    color: grey;
+}
+
+#post-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    /* border: 1px solid red; */
+}
+
+#post-button-like:hover{
+    color: red;
+    cursor: pointer;
+}
+#post-button-comment:hover{
+    color: #2ffcff;
+    cursor: pointer;
+}
+#post-button-share:hover{
+    color: rgb(71, 233, 71);
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+#timeline-create-post-main{
+    display: flex;
+    flex-direction: column;
+    margin: 50px auto;
+    list-style: none;
+    /* gap: 0px; */
+
+    width: 50%;
+    border: 1px solid #F1EFEF;
+    border-radius: 10px;
+}
+
+#create-pict{
+    width: 80px;
+}
+
+#create-post{
+    display: flex;
+    flex-direction: row;
+    padding: 10px 0px;
+    
+    /* border: 1px solid red; */
+}
+
+#input-space{
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    /* border: 1px solid red; */
+}
+
+#input-input{
+    width: 95%;
+    height: 100px;
+    margin: 0px auto;
+
+    border: 1px solid #F1EFEF;
+    border-radius: 10px;
+    
+    background-color: transparent;
+    
+}
+
+#input-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    margin: 0px auto;
+    width: 95%;
+    height: 50px;
+
+    /* border: 1px solid red; */
+}
+
+#input-button-2{
+    display: flex;
+    flex-direction: row;
+    margin: auto 0px;
+    gap: 10px;
+}
+#input-button-image:hover{
+    cursor: pointer;
+    color: red;
+}
+
+#input-button-post{
+    margin: 10px auto;
+    border-radius: 20px;
+    background-color: red;
+    color: #F1EFEF;
+
+    width: 70px;
+    height: 30px;
+}
+
+#input-button-post:hover{
+    background-color: #F1EFEF;
+    color: red;
+}
