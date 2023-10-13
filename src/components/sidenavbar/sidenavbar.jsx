@@ -1,5 +1,5 @@
 import "./sidenavbar.css"
-import { BiLogOut, BiLogOutCircle } from 'react-icons/bi'
+import { BiLogOut, BiLogOutCircle, BiLogoReact } from 'react-icons/bi'
 import { MdOutlineViewTimeline } from 'react-icons/md'
 import { AiOutlineHome } from 'react-icons/ai'
 import { AiOutlineProfile } from 'react-icons/ai'
@@ -18,25 +18,26 @@ const SideNavbar = () => {
         navigate("/timeline");
     }
     const onProfileButton = () => {
-        // navigate("/timeline");
+        // navigate("/somewhere");
     }
     const onMessageButton = () => {
-        // navigate("/timeline");
+        // navigate("/somewhere");
     }
     const onLogoutButton = () => {
-        // navigate("/timeline");
+        // navigate("/somewhere");
     }
 
 
     return <div id="sidenavbar-main">
         <div id="sidenavbar-content">
-            <div id="sidenavbar-button"> <center> <BiLogOutCircle size={23}/> LOGO-example </center> </div>
-            <div id="sidenavbar-button"> <center> <AiOutlineHome size={23}/> Home </center> </div>
-            <div id="sidenavbar-button"> <center> <AiOutlineProfile size={23}/> Profile </center> </div>
-            <div id="sidenavbar-button"> <center> <AiOutlineMessage size={23}/> Message </center> </div>
-            <div id="sidenavbar-button"> <center> <BiLogOut size={23}/> Logout </center> </div>
+            <div id="sidenavbar-content-2">
+                <div id="sidenavbar-button"> <center> <BiLogoReact size={35}/> LOGO </center> </div>
+                <div id="sidenavbar-button"> <center> <AiOutlineHome size={23}/> Home </center> </div>
+                <div id="sidenavbar-button"> <center> <AiOutlineProfile size={23}/> Profile </center> </div>
+                <div id="sidenavbar-button"> <center> <AiOutlineMessage size={23}/> Message </center> </div>
+                <div id="sidenavbar-button"> <center> <BiLogOut size={23}/> Logout </center> </div>
+            </div>
         </div>
-        
     </div>
 }
 

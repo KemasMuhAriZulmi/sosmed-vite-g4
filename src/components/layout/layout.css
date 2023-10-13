@@ -1,6 +1,6 @@
 #layoutpage-main{
     display: flex;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 #layoutpage-children{
