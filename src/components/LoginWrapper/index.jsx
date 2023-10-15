@@ -50,7 +50,7 @@ const LoginWrapper = () => {
 
   React.useEffect(() => {
     if (account) {
-      navigate(Not_Found);
+      navigate("/timeline");
     }
   }, [account]);
 

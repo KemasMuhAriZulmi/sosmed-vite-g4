@@ -81,13 +81,13 @@ const TimelinePage = () => {
                     </div>
                     <div id="post-post">
                         <div id="post-name-date">
-                            <p> <b> @Yui </b> </p>
+                            <div> <b> @Yui </b> </div>
                             <li id="post-date"> (- date)</li>
                         </div>
                         <div style={{display:"flex", flexDirection:"column", gap:"15px"}}>
-                            <p>
+                            <div>
                                 (DUMMY) Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit repellat delectus reprehenderit natus incidunt libero, illum, repudiandae laudantium illo id dolor non rem hic dolorem sunt ut, sequi aperiam facilis.
-                            </p>
+                            </div>
                             <div>
                                 <img width={"95%"} style={{borderRadius:"20px", margin:"auto"}} src="https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2014/3/21/1395401774125/Lorem-ipsum-011.jpg?width=465&dpr=1&s=none"/>
                             </div>
@@ -119,13 +119,13 @@ const TimelinePage = () => {
                     </div>
                     <div id="post-post">
                         <div id="post-name-date">
-                            <p> <b> @Yui </b> </p>
+                            <div> <b> @Yui </b> </div>
                             <li id="post-date"> (- date)</li>
                         </div>
                         <div style={{display:"flex", flexDirection:"column", gap:"15px"}}>
-                            <p>
+                            <div>
                                 (DUMMY) Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit repellat delectus reprehenderit natus incidunt libero, illum, repudiandae laudantium illo id dolor non rem hic dolorem sunt ut, sequi aperiam facilis.
-                            </p>
+                            </div>
                             <div>
                                 <img width={"95%"} style={{borderRadius:"20px", margin:"auto"}} src="https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2014/3/21/1395401774125/Lorem-ipsum-011.jpg?width=465&dpr=1&s=none"/>
                             </div>
